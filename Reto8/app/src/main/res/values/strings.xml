@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Empresas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Add_New">Agregar empresa</string>
+    <string name="edit">Editar empresa</string>
+    <string name="delete">Borrar empresa</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo</string>
+    <string name="web">URL</string>
+    <string name="products">Productos/Servicios</string>
+    <string name="classification">Clasificación</string>
+    <string name="company">Nombre de la empresa</string>
+    <string name="save">Guardar empresa</string>
+    <string name="deleteContact">¿Está seguro que desea eliminar la empresa?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string-array name="type_option">
+        <item>Consulting</item>
+        <item>Customised development</item>
+        <item>Software development</item>
+    </string-array>
+    <string name="consultancy">Consultoría</string>
+    <string name="development">Desarrollo a la medida</string>
+    <string name="softdev">Fábrica de software</string>
+    <string name="company_list">Lista de empresas</string>
+    <string name="check">¿Seguro?</string>
+
+    <!--Actions-->
+    <string name="created_success">Empresa creada</string>
+    <string name="created_failure">Error al crear empresa</string>
+    <string name="updated_success">Se realizaron los cambios</string>
+    <string name="updated_failure">Error al editar</string>
+    <string name="deleted_success">Empresa borrada</string>
+    <string name="deleted_failure">Error al eliminar</string>
+
+</resources>
