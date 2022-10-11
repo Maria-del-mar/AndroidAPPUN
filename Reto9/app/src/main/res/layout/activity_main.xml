@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/radios"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rad1"
+            android:text="0.2km"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rad2"
+            android:text="0.5km"/>
+
+        <Button
+            android:id="@+id/rad3"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="1km" />
+
+        <Button
+            android:id="@+id/rad4"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="5km" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rad5"
+            android:text="10km"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_below="@+id/radios" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/map"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank"/>
+
+        <Button
+            android:id="@+id/school"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="School" />
+
+        <Button
+            android:id="@+id/hospital"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Hospital" />
+
+        <Button
+            android:id="@+id/rest"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="Food" />
+    </LinearLayout>
+</RelativeLayout>
